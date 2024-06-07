@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background: url('time.jpeg') no-repeat center center/cover;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(to top left, rgb(249, 246, 245), #89daf6); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left:700px;
+}
+
+#display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.keys {
+    margin: 20px 0;
+    
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    color: aliceblue;
+    border:1px solid green;
+    background: linear-gradient(to right, rgb(173, 164, 196), rgb(160, 118, 184)); 
+}
+button:hover{
+    color:white;
+    border:1px solid whitesmoke;
+    border-radius:22px 20px;
+    background: linear-gradient(to left, rgb(19, 180, 174), rgb(160, 118, 184)); 
+    font-weight: 400;
+    transform: scale(1.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}
